@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio Website </title>
+</head>
+<body>    
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Sarika</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="l-main">        
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Sarika</span><br> A Web Developer</h1>
+                <a href="mailto:sarika12patel34567@gmail.com" class="button">Contact</a>
+                <a href="https://www.canva.com/design/DAF3n-nDOlM/nO7xocl1Cr6yaFnT0QmZTg/view?utm_content=DAF3n-nDOlM&utm_campaign=designshare&utm_medium=link&utm_source=editor" download class="button">Resume</a>
+            </div>
+            <div class="home__social">
+                <a href="www.linkedin.com/in/sarika-patel-246b23285" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:sarika12patel34567@gmail.com" class="home__social-icon"><i class='bx bx-envelope'></i></a>
+                <a href="#" class="home__social-icon"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="home__img">
+                <img class="home__blob-img" src="mypic2.jpg" alt="My Picture"  />
+            </div>
+            
+        </section>
+
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="mypic2.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'm Sarika</h2>
+                    <p class="about__text">I'm Sarika Patel, and I'm currently in my third year of studying web
+                        development at BCA. I enjoy turning ideas into cool online experiences. I've worked on various
+                        web projects where I focus on making things function well and look good. Alongside my studies, I've
+                        gained hands-on experience to bring a mix of tech skills and creative thinking to the table. I'm
+                        excited about the idea of bringing my skills to your team. Feel free to check out my resume to
+                        see what I've been up to, and let's chat about how we can create something awesome together.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">I possess a robust skill set in web development, specializing in HTML, CSS,
+                        and JavaScript. These languages are the foundation of my ability to create visually appealing
+                        and functional websites. Additionally, my toolkit extends to Python, C, and C++, where I have a
+                        solid understanding, providing me with a well-rounded approach to problem-solving and
+                        application development. My proficiency in these languages, coupled with a passion for learning,
+                        allows me to adapt swiftly to new challenges and contribute effectively to diverse projects.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JavaScript</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div class="skills__bar skills__ux"></div>
+                        <div>
+                            <span class="skills__percentage">70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img src="mypic2.jpg" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio__container bd-grid">
+                <a href="#" class="portfolio__img">
+                    <img src="portfolio.png" alt="">
+                </a>
+                <a href="#" class="portfolio__img">
+                    <img src="weather_api.png" alt="">
+                </a>
+                <a href="#" class="portfolio__img">
+                    <img src="calculator.png" alt="">
+                </a>
+                <a href="#" class="portfolio__img">
+                    <img src="tic_tac_toe.jpg" alt="">
+                </a>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="email" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Message"></textarea>
+                    <input type="button" value="Send" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__social">
+            <a href="www.linkedin.com/in/sarika-patel-246b23285" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="mailto:sarika12patel34567@gmail.com" class="footer__icon"><i class='bx bx-envelope'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-github'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Sarika Patel. All rights reserved</p>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
